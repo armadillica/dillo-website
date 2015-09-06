@@ -1,0 +1,74 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	color: white;
+	background-color: #d36066;
+	height: 100%;
+	width: 100%;
+	font-family: 'Source Sans Pro';
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.dillogo {
+	display: block;
+}
+
+.dillinfo {
+	text-align: center;
+	width: 100%;
+	max-width: 600px;
+}
+
+.lead {
+	display: block;
+	font-size: 1.6em;
+	margin: 30px auto;
+}
+
+.cta {
+	margin: 60px auto 20px auto;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.button {
+	font-size: 1.6em;
+	color: white;
+	background-color: transparent;
+	border: 2px solid rgba(255,255,255,.8);
+	border-radius: 50px;
+	padding: 5px 30px;
+	min-width: 150px;
+	cursor: pointer;
+	text-decoration: none;
+	font-family: 'Pacifico';
+	transition: background-color .2s ease-in-out;
+}
+
+.button:hover {
+	background-color: rgba(255,255,255,.2);
+	border-color: white;
+}
+
+.thedudes {
+	margin: 40px auto 0 auto;
+	font-size: .8em;
+}
+
+.thedudes a {
+	text-decoration: none;
+	color: rgba(255,255,255,.7);
+}
+
+.thedudes a:hover {
+	color: white;
+}
