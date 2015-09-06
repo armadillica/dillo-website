@@ -1,2 +1,2 @@
 # dillo-website
-Website for [dillo](dillo.space) project
+Website for [dillo](http://dillo.space) project
