@@ -19,6 +19,7 @@ html, body {
 
 .dillogo {
 	display: block;
+	width: 100%;
 }
 
 .dillinfo {
@@ -72,3 +73,60 @@ html, body {
 .thedudes a:hover {
 	color: white;
 }
+
+
+@media (max-width:720px){
+	.dillogo {
+		display: block;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.lead {
+		display: block;
+		width: 70%;
+		margin: 20px auto 0 auto;
+	}
+	.cta {
+		flex-direction: column;
+		margin: 30px auto 0 auto;
+	}
+	.button {
+		margin: 10px auto;
+		font-size: 1.3em;
+	}
+	.thedudes {
+		align-self: baseline;
+		margin: 10px auto 0 auto;
+		padding: 0;
+	}
+}
+
+@media screen and (orientation: landscape) and (max-device-width: 736px) {
+	.container {
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+	}
+	.dillogo {
+		display: block;
+		width: 100%;
+		float: left;
+	}
+	.dillinfo {
+		display: block;
+		width: 100%;
+		float: right;
+	}
+	.lead {
+		font-size: 1.3em;
+		width: 100%;
+	}
+	.button {
+		margin: 5px auto;
+		font-size: 1.1em;
+	}
+	.thedudes {
+		display: none;
+	}
+}
+
